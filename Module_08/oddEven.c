@@ -1,11 +1,12 @@
 #include<stdio.h>
+#define arrayElements 6
 
 int main()
 {
-    int arr[6];
+    int arr[arrayElements];
     int i, oddCount=0;
 
-    for(i=0; i<6; i++){
+    for(i=0; i<arrayElements; i++){
         scanf("%d", &arr[i]);
         if(arr[i] % 2 != 0){
             oddCount++;
