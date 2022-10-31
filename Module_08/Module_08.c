@@ -15,6 +15,13 @@ int main()
             m = arr[i];
         }
     }
-    printf("The maximum value is: %d", m);
+
+    int nm = arr[0];
+    for(i=0; i<N; i++){
+        if(arr[i] > nm && arr[i] != m){
+            nm = arr[i];
+        }
+    }
+    printf("The maximum value is: %d", nm);
     return 0;
 }
