@@ -49,7 +49,7 @@ int main()
     }
     else
     {
-        printf("Not_Identity Matrix");
+        printf("Not Identity Matrix");
     }
 
     return 0;
