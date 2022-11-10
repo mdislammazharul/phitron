@@ -19,7 +19,7 @@ int main()
 
     if (row == col)
     {
-        int x = mat[0][col - 1];
+        int x = 1;
         for (int i = 0; i < row; i++)
         {
             for (int j = 0; j < col; j++)
@@ -40,16 +40,16 @@ int main()
         }
         if (flag == true)
         {
-            printf("Square");
+            printf("Identity Matrix");
         }
         else
         {
-            printf("Not Square");
+            printf("Not Identity Matrix");
         }
     }
     else
     {
-        printf("Not_Square");
+        printf("Not_Identity Matrix");
     }
 
     return 0;
