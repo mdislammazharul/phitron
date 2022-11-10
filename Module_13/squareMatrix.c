@@ -26,11 +26,7 @@ int main()
             {
                 if ((row - 1) == (i + j))
                 {
-                    if (mat[i][j] == x)
-                    {
-                        continue;
-                    }
-                    else
+                    if (mat[i][j] != x)
                     {
                         flag = false;
                     }
